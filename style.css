@@ -1,0 +1,92 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.container
+{
+    background-image: url(Images/\(1\).jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.navbar
+{
+    height: 80px;
+    width: 100%;
+    background: rgba(0, 0, 0, 4);
+}
+.Logo
+{
+    width: 140px;
+    height: auto;
+    padding: 20px 100px;
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 6px 13px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover {
+ background: red;
+ border-radius: 20px;
+
+}
+.container .center{
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+.cneter h1{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+}
+.cneter h2{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    width: 885px;
+    margin-top: 10px;
+    text-align: center;
+}
+.center .buttons{
+    margin: 35px 280px;
+}
+.buttons button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffb3b3;
+    background: red;
+    border: 1px solid #cc0000;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: .5s;
+
+}
+.buttons .btn{
+    margin-bottom: 50px;
+}
+.buttons button:hover{
+    background: #cc0000;
+}
